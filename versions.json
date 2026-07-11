@@ -1,0 +1,12 @@
+{
+  "smartphone": {
+    "files": ["universal", "communities"]
+  },
+  "rennsporthud": {
+    "files": ["universal"]
+  },
+  "versions": {
+    "universal": 1.0,
+    "communities": 1.0
+  }
+}

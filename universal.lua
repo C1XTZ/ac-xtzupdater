@@ -168,7 +168,7 @@ end
 --#region MANIFEST EDITING (Using io functions instead of going through `ac.INIConfig:save()` because that would re-serialize the whole file and as of CSP 3978 corrupts values containing `//` like the URL field.
 
 ---@return string? @Full `manifest.ini` contents
----Reads manifest.ini as plain text (not through ac.INIConfig, since we only ever write via replaceSection).
+---Reads manifest.ini as plain text
 local function readManifestText()
   local file = io.open(manifestPath, 'r')
   if not file then return nil end

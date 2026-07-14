@@ -5,8 +5,11 @@
   "rennsporthud": {
     "files": ["universal"]
   },
+  "mobilephone": {
+    "files": ["universal"]
+  },
   "versions": {
-    "universal": 1.0,
-    "communities": 1.0
+    "universal": 1.1,
+    "communities": 1.1
   }
 }
